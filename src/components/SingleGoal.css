@@ -1,0 +1,33 @@
+.single-goal{
+    flex: 1;
+    min-width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(77, 77, 77, 30%);
+
+    & .info-wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & .goal-title{
+            background-color: rgba(255, 216, 110, 0.671);
+            width: fit-content;
+            padding: .4rem;
+            border-radius: 3px;
+            font-size: .9rem;
+            font-weight: 300;
+        }
+        & .goal-desc{
+            font-size: .9rem;
+            font-weight: 300;
+        }
+    }
+
+    button{
+        font-size: .7rem;
+        font-weight: 200;
+        height: fit-content;
+    }
+}

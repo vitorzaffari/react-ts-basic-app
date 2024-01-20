@@ -1,0 +1,32 @@
+form {
+
+    & .input-wrap {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            color: antiquewhite;
+            margin: 1rem 0 .5rem;
+        }
+
+        input {
+            padding: 10px;
+            background-color: rgb(250, 255, 240);
+            border: none;
+            outline: none;
+            color: black;
+        }
+    }
+
+    & .form-btn {
+        color: black;
+        margin-top: 1rem;
+        background-color: rgb(245, 196, 123);
+        width: 100%;
+
+        &:hover {
+            background-color: rgb(243, 179, 84);
+
+        }
+    }
+}

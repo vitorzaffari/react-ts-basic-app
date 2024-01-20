@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+  /* Style */
+  color: #FFF;
+  background-color: #121212;
+
+  
+  /* Layout */
+  /* height: 100vh; */
+  /* min-height: 100vh; */
+}
+
+main{
+  padding: 1rem;
+  margin: 5rem auto;
+  width: 550px;
+  height: fit-content;
+  max-height: 800px;
+  
+  background-color: #181818;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn{
+  padding: 6px 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  background-color: #FFFFFF20;
+  color: rgb(235, 235, 235);
+  transition: background-color 200ms ease;
+}
+
+.btn:hover{
+  background-color: #FFFFFF35;
+}

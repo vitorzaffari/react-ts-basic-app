@@ -1,0 +1,6 @@
+.goals-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: 1rem;
+}
